@@ -20,6 +20,8 @@ canv.width = canv.offsetWidth;
 canv.height = canv.offsetHeight;
 
 setInterval(function() {
+      canv.width = canv.offsetWidth;
+      canv.height = canv.offsetHeight;
     if (type) {
         force();
     }
